@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO(launch): confirm the final production domain
+Sitemap: https://raagkhajana.org/sitemap.xml

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Raag Khajana — Preserving Gurmat Sangeet for a New Generation</title>
+    <meta
+      name="description"
+      content="Raag Khajana digitally preserves gurmat sangeet — recordings, notation, and oral history — and builds new tools, from learning games to machine learning, to help a new generation find their way to the tradition and its teachers."
+    />
+    <!-- TODO(launch): confirm final production domain, then update canonical / og:url / og:image below, plus public/robots.txt and public/sitemap.xml -->
+    <link rel="canonical" href="https://raagkhajana.org/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Raag Khajana" />
+    <meta property="og:title" content="Raag Khajana — Preserving Gurmat Sangeet for a New Generation" />
+    <meta
+      property="og:description"
+      content="Digitally preserving Punjab's centuries-old musical heritage — recordings, notation, and oral history — without ever replacing the teacher."
+    />
+    <meta property="og:url" content="https://raagkhajana.org/" />
+    <meta property="og:image" content="https://raagkhajana.org/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Raag Khajana wordmark in royal blue and gold with the tagline Preserving Gurmat Sangeet for a New Generation."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Raag Khajana — Preserving Gurmat Sangeet for a New Generation" />
+    <meta
+      name="twitter:description"
+      content="Digitally preserving Punjab's centuries-old musical heritage — recordings, notation, and oral history — without ever replacing the teacher."
+    />
+    <meta name="twitter:image" content="https://raagkhajana.org/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Raag Khajana wordmark in royal blue and gold with the tagline Preserving Gurmat Sangeet for a New Generation."
+    />
+
+    <meta name="theme-color" content="#faf7f1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Noto Serif Gurmukhi subset to the single ਖ glyph used in the wordmark -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Gurmukhi&text=%E0%A8%96&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/style.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="container">
+      <header class="site-header" data-site-header>
+        <nav class="site-nav" aria-label="Main">
+          <a class="wordmark wordmark--nav" href="#top">
+            <span class="sr-only">Raag Khajana — home</span>
+            <span aria-hidden="true">Raag&nbsp;<span class="kha" lang="pa">ਖ</span>jana</span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            data-nav-toggle
+          >
+            <span class="sr-only">Menu</span>
+            <span class="nav-toggle__bar" aria-hidden="true"></span>
+            <span class="nav-toggle__bar" aria-hidden="true"></span>
+            <span class="nav-toggle__bar" aria-hidden="true"></span>
+          </button>
+
+          <ul class="nav-links" id="nav-links" data-nav-links>
+            <li><a href="#about">About</a></li>
+            <li><a href="#progress">Progress</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="main">
+        <!-- Hero -->
+        <section class="hero" aria-labelledby="hero-heading">
+          <p class="eyebrow hero__eyebrow">A Preservation Project</p>
+          <h1 class="hero__title" id="hero-heading">Preserving Gurmat Sangeet for a New Generation</h1>
+          <p class="hero__subhead">
+            Bridging Punjab's centuries-old musical heritage with the technology of today — without ever
+            replacing the teacher.
+          </p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="#newsletter">Join the Newsletter</a>
+            <a class="btn btn--secondary" href="#contact">Get in Touch</a>
+          </div>
+        </section>
+
+        <!-- Hero image band — swappable image slot.
+             To use a real image: drop it in public/images/ and update the src below
+             (keep the alt text and the <img> element; the layout crops to fit). -->
+        <div class="hero-band image-slot">
+          <img
+            src="/images/hero-placeholder.svg"
+            alt="Illuminated Gurmukhi manuscript motif in royal blue and gold."
+            width="1240"
+            height="420"
+            fetchpriority="high"
+          />
+        </div>
+
+        <!-- About & Mission -->
+        <section class="about" id="about" aria-labelledby="about-heading">
+          <!-- About portrait — swappable image slot (same swap rule as the hero band). -->
+          <figure class="about__figure image-slot">
+            <img
+              src="/images/about-placeholder.svg"
+              alt="A gurmat sangeet teacher and student."
+              width="680"
+              height="340"
+              loading="lazy"
+            />
+          </figure>
+          <div class="about__text">
+            <p class="eyebrow section-eyebrow">About &amp; Mission</p>
+            <h2 class="about__title" id="about-heading">A khajana — a treasury — of oral tradition</h2>
+            <p class="about__para">
+              Gurmat sangeet has always been passed down orally, teacher to student. That intimacy is
+              precious — and precarious. Raag Khajana digitally preserves recordings, notation, and oral
+              history, and uses new tools, including machine learning, to make this knowledge more
+              accessible.
+            </p>
+            <p class="about__para about__para--last">
+              We don't see technology as a replacement for the teacher-student relationship. We see it as a
+              way to create more space for teachers to exist, and for more people to find their way to them.
+            </p>
+          </div>
+        </section>
+
+        <!-- Progress -->
+        <section class="progress" id="progress" aria-labelledby="progress-heading">
+          <div class="progress__header">
+            <p class="eyebrow section-eyebrow">Progress</p>
+            <h2 class="progress__title" id="progress-heading">Where things stand</h2>
+          </div>
+          <!-- TODO(launch): confirm the three stats below (120+ / 8 / 2026) before going live -->
+          <dl class="stats">
+            <div class="stats__cell">
+              <dt class="stats__label-top sr-only">Raags recorded and archived</dt>
+              <dd class="stats__value">120+</dd>
+              <dd class="stats__label" aria-hidden="true">raags recorded &amp; archived</dd>
+            </div>
+            <div class="stats__cell">
+              <dt class="stats__label-top sr-only">Teachers partnered with</dt>
+              <dd class="stats__value">8</dd>
+              <dd class="stats__label" aria-hidden="true">teachers partnered with</dd>
+            </div>
+            <div class="stats__cell">
+              <dt class="stats__label-top sr-only">Public launch year</dt>
+              <dd class="stats__value">2026</dd>
+              <dd class="stats__label" aria-hidden="true">public launch year</dd>
+            </div>
+          </dl>
+          <p class="timeline">
+            <strong>Timeline:</strong> Archive &amp; first recordings underway · Prototype learning game in
+            development · Machine learning research phase beginning
+          </p>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter" id="newsletter" aria-labelledby="newsletter-heading">
+          <h2 class="newsletter__title" id="newsletter-heading">Follow the journey</h2>
+          <p class="newsletter__para">
+            Occasional updates as we build the archive, the games, and the research.
+          </p>
+          <form class="newsletter__form" data-newsletter-form method="post" novalidate>
+            <label class="sr-only" for="newsletter-email">Email address</label>
+            <input
+              class="newsletter__input"
+              id="newsletter-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="your@email.com"
+              required
+            />
+            <button class="btn btn--gold newsletter__submit" type="submit" data-submit>Subscribe</button>
+          </form>
+          <p class="form-status newsletter__status" data-status role="status" aria-live="polite"></p>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact" aria-labelledby="contact-heading">
+          <div class="contact__info">
+            <p class="eyebrow section-eyebrow">Contact</p>
+            <h2 class="contact__title" id="contact-heading">Get in touch</h2>
+            <p class="contact__para">Teacher, researcher, or just curious? We'd love to hear from you.</p>
+            <!-- TODO(launch): confirm the contact email and Instagram handle below -->
+            <ul class="contact__details">
+              <li><strong>Email</strong> — <a href="mailto:hello@raagkhajana.org">hello@raagkhajana.org</a></li>
+              <li>
+                <strong>Instagram</strong> —
+                <a href="https://www.instagram.com/raagkhajana" rel="noopener">@raagkhajana</a>
+              </li>
+            </ul>
+          </div>
+          <form class="contact__form" data-contact-form method="post" novalidate>
+            <label class="sr-only" for="contact-name">Name</label>
+            <input
+              class="field"
+              id="contact-name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              placeholder="Name"
+              required
+            />
+            <label class="sr-only" for="contact-email">Email</label>
+            <input
+              class="field"
+              id="contact-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="Email"
+              required
+            />
+            <label class="sr-only" for="contact-message">Message</label>
+            <textarea
+              class="field contact__message"
+              id="contact-message"
+              name="message"
+              rows="4"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button class="btn btn--primary contact__submit" type="submit" data-submit>Send Message</button>
+            <p class="form-status contact__status" data-status role="status" aria-live="polite"></p>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span class="site-footer__copyright">
+          © 2026
+          <span class="wordmark wordmark--footer">
+            <span class="sr-only">Raag Khajana</span>
+            <span aria-hidden="true">Raag&nbsp;<span class="kha" lang="pa">ਖ</span>jana</span>
+          </span>
+        </span>
+        <span>Preserving gurmat sangeet, alongside the teachers who carry it</span>
+      </footer>
+    </div>
+  </body>
+</html>

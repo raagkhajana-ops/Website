@@ -1,0 +1,18 @@
+{
+  "name": "raag-khajana-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Single-page marketing site for Raag Khajana — preserving gurmat sangeet for a new generation.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
